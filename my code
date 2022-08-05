@@ -1,0 +1,68 @@
+script.Parent.Touched:Connect(function(hit, plr)
+	if hit.Name == "Head" then
+		if hit.Parent.c2.TextLabel.Text == "Barista" then
+			hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+		else if hit.Parent.c2.TextLabel.Text == "VIP Barista" then
+				hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+			else if hit.Parent.c2.TextLabel.Text == "Junior Barista" then
+					hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+				else if hit.Parent.c2.TextLabel.Text == "Senior Barista" then
+						hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+					else if hit.Parent.c2.TextLabel.Text == "Cafe Worker" then
+							hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+						else if hit.Parent.c2.TextLabel.Text == "Head Barista" then
+								hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+							else if hit.Parent.c2.TextLabel.Text == "BaristaManger" then
+									hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+								else if hit.Parent.c2.TextLabel.Text == "Senior Cafe Worker" then
+										hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+									else if hit.Parent.c2.TextLabel.Text == "CafeManger" then
+											hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+										else if hit.Parent.c2.TextLabel.Text == "General Worker" then
+												hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+											else if hit.Parent.c2.TextLabel.Text == "Head Cafe Worker" then
+													hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+												else if hit.Parent.c2.TextLabel.Text == "Senior General Worker" then
+														hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+													else if hit.Parent.c2.TextLabel.Text == "General Manger" then
+															hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+														else if hit.Parent.c2.TextLabel.Text == "Supervisor" then
+																hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+															else if hit.Parent.c2.TextLabel.Text == "Vice-President" then
+																	hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+
+																else if hit.Parent.c2.TextLabel.Text == "President" then
+																		hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+																	else if hit.Parent.c2.TextLabel.Text == "CO" then
+																			hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+																		else if hit.Parent.c2.TextLabel.Text == "CEO" then
+																				hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+																			else if hit.Parent.c2.TextLabel.Text == "Game Creator" then
+																					hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+																				else if hit.Parent.c2.TextLabel.Text == "Land Lord" then
+																						hit.Parent:MoveTo(game.Workspace.TpPart.CFrame)
+																					end
+																				end
+																			end
+																		end
+																	end
+
+																	end
+															end
+														end
+													end
+												end
+											end
+										end
+									end
+								end
+							end
+						end
+					end
+				end	
+			end
+
+		
+		end
+		end
+end)
